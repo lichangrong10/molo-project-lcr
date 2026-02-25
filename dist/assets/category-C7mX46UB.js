@@ -1,0 +1,1 @@
+import{Y as t}from"./index-Br9xVuwO.js";const a=r=>t({url:"/category",params:{id:r}}),o=r=>t({url:"/category/sub/filter",params:{id:r}}),s=r=>t({url:"/category/goods/temporary",method:"POST",data:r});export{o as a,s as b,a as g};

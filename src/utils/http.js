@@ -5,7 +5,7 @@ import { loginAPI } from '@/apis/login'
 import { useRouter } from "vue-router";
 
 const httpInstance = axios.create({
-  baseURL: 'http://pcapi-xiaotuxian-front-devtest.itheima.net',
+  baseURL: 'https://pcapi-xiaotuxian-front-devtest.itheima.net',
   timeout: 500000,
 });
 
@@ -47,3 +47,4 @@ httpInstance.interceptors.response.use(function (response) {
 });
 
 export default httpInstance
+

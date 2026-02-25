@@ -41,5 +41,6 @@ export default defineConfig({
 
       }
     }
-  }
+  },
+  base: '/molo-project-lcr/',
 })
